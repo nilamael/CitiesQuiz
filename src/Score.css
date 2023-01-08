@@ -1,0 +1,50 @@
+.scoreContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 15rem;
+    height: 5rem;
+    
+}
+
+.scoreDisplay {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 0.2rem 0.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.scoreCityToGues {
+  margin: 0.2rem;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.scoreFeedback {
+  margin: 0.2rem;
+
+}
+
+@media (min-width: 600px) { 
+    .scoreContainer {
+        width: 17rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .scoreContainer {
+        width: 19rem;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .scoreContainer {
+        width: 22rem;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .scoreContainer {
+        width: 25rem;
+    }
+  }
